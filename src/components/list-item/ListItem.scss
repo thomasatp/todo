@@ -1,0 +1,26 @@
+li {
+    font-size: 1.6rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 3.2rem;
+    background: rgba($color: #ffffff, $alpha: .1);
+    border-radius: .8rem;
+    margin-bottom: .8rem;
+    color: #ffffff;
+    backdrop-filter: blur(20px);
+    
+    .edition-icons {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            margin-right: 1.6rem;
+
+            &:last-of-type{
+                margin: 0;
+            }
+        }
+    }
+}
